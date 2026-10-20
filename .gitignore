@@ -276,3 +276,5 @@ belli/media/
 .env
 .envs/*
 !.envs/.local/
+.envs/.local/*
+!.envs/.local/*.example

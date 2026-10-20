@@ -1,0 +1,13 @@
+# Copy to .envs/.local/.postgres (no .example suffix). Not committed.
+#
+# POSTGRES_USER and POSTGRES_PASSWORD are read only when the database volume is
+# first created. Changing them later requires `just prune` (or
+# `docker compose down -v`) to recreate the volume.
+
+# PostgreSQL
+# ------------------------------------------------------------------------------
+POSTGRES_HOST=postgres
+POSTGRES_PORT=5432
+POSTGRES_DB=belli
+POSTGRES_USER=debug
+POSTGRES_PASSWORD=debug

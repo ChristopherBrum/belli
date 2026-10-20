@@ -1,7 +1,11 @@
+# Copy to .envs/.local/.django (no .example suffix). Not committed.
+# These are local-only values; anything real belongs outside version control.
+
 # General
 # ------------------------------------------------------------------------------
 USE_DOCKER=yes
 IPYTHONDIR=/app/.ipython
+
 # Redis
 # ------------------------------------------------------------------------------
 REDIS_URL=redis://redis:6379/0
@@ -10,5 +14,5 @@ REDIS_URL=redis://redis:6379/0
 # ------------------------------------------------------------------------------
 
 # Flower
-CELERY_FLOWER_USER=uYcfHEcpeDrMndYzHxFEZJTkBDWSWZUn
-CELERY_FLOWER_PASSWORD=n3A9WVb7jQTxtOkq8sBHFLPrjLxOlXJQ1sFLL3VQxwCm4jIBNEVCWpOSg0fxtVPM
+CELERY_FLOWER_USER=debug
+CELERY_FLOWER_PASSWORD=debug
